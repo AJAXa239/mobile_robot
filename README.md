@@ -6,7 +6,7 @@ A mecanum-drive mobile robot simulated in Gazebo, built on ROS 2 Jazzy, designed
 This project combines LIDAR and RGBD camera data for spatial awareness, alongside an OpenCV-based vision pipeline that detects and tracks a red ball, driving closed-loop following behavior in simulation.
 
 ## Key Features
-- **Sensor Fusion**: Integrates `PointCloud2` data from an RGBD camera with 2D LIDAR scans to build a combined spatial understanding of the environment.
+- **Sensor Fusion**: Integrates `PointCloud2` data from an RGBD camera with LIDAR scans to build a combined spatial understanding of the environment.
 - **Mecanum Drive Kinematics**: Supports omnidirectional movement (forward/backward, strafing, rotation) using a 4-wheel mecanum drive configuration.
 - **Vision-Based Object Tracking**: An OpenCV + CvBridge node detects a red ball in the camera feed and converts its image-space position into velocity commands.
 - **Closed-Loop Following**: The robot continuously adjusts its heading and speed to track and follow the detected object in real time.
