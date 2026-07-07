@@ -25,3 +25,10 @@ This project combines LIDAR and RGBD camera data for spatial awareness, alongsid
 
 ## Motivation
 Built as part of an ongoing robotics portfolio, this project explores multi-sensor perception and closed-loop control pipelines relevant to autonomous mobile robotics applications.
+
+## Command
+colcon build --packages-skip moveit_ros_tests --allow-overriding mecanum_drive_controller moveit_common moveit_core moveit_ros_planning --cmake-args -Wno-dev
+ros2 launch bme_gazebo_sensors spawn_robot.launch.py
+ros2 run bme_gazebo_sensors_py chase_the_ball
+ros2 run bme_gazebo_sensors_py gps_waypoint_follower
+
