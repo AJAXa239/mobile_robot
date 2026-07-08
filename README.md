@@ -33,4 +33,4 @@ Built as part of an ongoing robotics portfolio, this project explores multi-sens
 - ros2 run bme_gazebo_sensors_py gps_waypoint_follower
 
 ## Images
-![image](assets/Screenshot from 2026-07-07 13-06-58.png)
+![image](https://github.com/AJAXa239/mobile_robot/blob/03045d69d4a119fb72dd5d9cacab76f65287dba8/assets/Screenshot%20from%202026-07-07%2013-06-58.png)
