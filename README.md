@@ -4,7 +4,7 @@
 ![Stars](https://img.shields.io/github/stars/AJAXa239/mobile_robot)
 # Mobile Robot Mecanum Drive with Multi-Sensor Perception (ROS 2 Jazzy)
 
-A mecanum-drive mobile robot simulated in Gazebo, built on ROS 2 Jazzy, designed to perceive and interact with a sandbox environment using fused sensor data and real-time computer vision.
+A mecanum drive mobile robot simulated in Gazebo, built on ROS 2 Jazzy, designed to perceive and interact with a sandbox environment using fused sensor data and real-time computer vision.
 
 ## Overview
 This project combines LIDAR and RGBD camera data for spatial awareness, alongside an OpenCV-based vision pipeline that detects and tracks a red ball, driving closed-loop following behavior in simulation.
@@ -36,5 +36,5 @@ Built as part of an ongoing robotics portfolio, this project explores multi-sens
 - ros2 run bme_gazebo_sensors_py chase_the_ball
 - ros2 run bme_gazebo_sensors_py gps_waypoint_follower
 
-## Images
+## Image
 ![image](https://github.com/AJAXa239/mobile_robot/blob/03045d69d4a119fb72dd5d9cacab76f65287dba8/assets/Screenshot%20from%202026-07-07%2013-06-58.png)
