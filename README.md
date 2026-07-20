@@ -1,4 +1,4 @@
-![ROS2](https://img.shields.io/badge/ROS2-Jazzy-blue)
+![ROS2](https://img.shields.io/badge/ROS2-Jazzy-green)
 ![Issues](https://img.shields.io/github/issues/AJAXa239/mobile_robot)
 ![Last Commit](https://img.shields.io/github/last-commit/AJAXa239/mobile_robot)
 ![Stars](https://img.shields.io/github/stars/AJAXa239/mobile_robot)
