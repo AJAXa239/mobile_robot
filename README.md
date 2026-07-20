@@ -1,4 +1,8 @@
-# Mobile Robot – Mecanum Drive with Multi-Sensor Perception (ROS 2 Jazzy)
+![ROS2](https://img.shields.io/badge/ROS2-Jazzy-blue)
+![Issues](https://img.shields.io/github/issues/AJAXa239/mobile_robot)
+![Last Commit](https://img.shields.io/github/last-commit/AJAXa239/mobile_robot)
+![Stars](https://img.shields.io/github/stars/AJAXa239/mobile_robot)
+# Mobile Robot Mecanum Drive with Multi-Sensor Perception (ROS 2 Jazzy)
 
 A mecanum-drive mobile robot simulated in Gazebo, built on ROS 2 Jazzy, designed to perceive and interact with a sandbox environment using fused sensor data and real-time computer vision.
 
